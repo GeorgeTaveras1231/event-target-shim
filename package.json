@@ -1,9 +1,12 @@
 {
-  "name": "event-target-shim",
+  "name": "@xo-union/event-target-shim",
   "version": "5.0.1",
   "description": "An implementation of WHATWG EventTarget interface.",
   "main": "dist/event-target-shim",
   "types": "index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "dist",
     "index.d.ts"
